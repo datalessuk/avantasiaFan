@@ -1,4 +1,4 @@
-#Avantasia Fan pahe
+#Avantasia Fan page
 
 Avantasia home screen fan site template, build with materialize CSS framework
 
