@@ -49,3 +49,49 @@ nav ul :hover{
     position: absolute;
     
 }
+.container h4{
+    font-size: 1.5rem;
+}
+.mobile-cards img {
+    width: 100%;
+}
+.mobile-cards .card{
+    display: contents;
+}
+.mobile-cards .card img{
+    height: 80px;
+    width: 300px
+}
+
+
+@media only screen and (min-width:1440px) {
+   .mobile-cards{
+       display: none;
+   }
+}
+
+@media only screen and (max-width: 600px) {
+    .container .card{
+        display: none;
+    }
+  
+    .mobile-cards .card{
+        display: contents;
+    }
+  }
+
+  @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
+    nav li a{
+        font-size: 1.4rem;
+    
+    }
+  }
+
+
+@media only screen and (max-width: 1024px){
+    .mobile-cards{
+        display: none;
+    }
+}
+ 
+
