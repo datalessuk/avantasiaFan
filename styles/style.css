@@ -41,6 +41,11 @@ nav ul :hover{
     height: 500px;
     background: rgb(24, 24, 24);
 }
+.container .card p{
+    text-align: left;
+    font-size: 1.5rem;
+    margin-right: 2px;
+}
 
 .container h4{
     font-family: 'iNked God';
@@ -62,6 +67,12 @@ nav ul :hover{
     height: 80px;
     width: 300px
 }
+.mobile-cards span{
+    font-family: 'iNked God';
+    position: absolute;
+    right: 40px;
+}
+
 
 
 @media only screen and (min-width:1440px) {
@@ -92,5 +103,11 @@ nav ul :hover{
         display: none;
     }
 }
- 
+@media only screen and (max-width: 1492px){
+    nav li a{
+        font-size: 1.5rem;
+    
+    }
+}
+
 
